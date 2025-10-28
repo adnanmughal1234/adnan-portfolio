@@ -31,12 +31,12 @@ const Skills = () => {
             { src: JavaScript, label: 'JavaScript' },
             { src: ReactImg, label: 'React' },
             { src: GitHub, label: 'GitHub' },
-            { src: Node, label: 'Node.js' },
+            // { src: Node, label: 'Node.js' },
             { src: Mongo, label: 'MongoDB' },
-            { src: Tailwind, label: 'Tailwind' },
-            { src: FireBase, label: 'Firebase' },
-            { src: nextj, label: 'Next.js' },
-            { src: vue, label: 'Vue.js' },
+            // { src: Tailwind, label: 'Tailwind' },
+            // { src: FireBase, label: 'Firebase' },
+            // { src: nextj, label: 'Next.js' },
+            // { src: vue, label: 'Vue.js' },
             { src: sql, label: 'SQL' },
           ].map((tech, index) => (
             <div
