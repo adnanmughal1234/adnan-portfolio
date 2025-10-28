@@ -192,7 +192,7 @@ const Navbar = () => {
         {/* Social icons on mobile */}
         <div className='flex mt-8 gap-6'>
           <a
-            href='https://github.com/zanib-sheikh'
+            href='https://github.com/adnanmughal1234'
             target='_blank'
             rel='noreferrer'
             className='text-white hover:text-cyan-600'
@@ -200,7 +200,7 @@ const Navbar = () => {
             <FaGithub size={30} />
           </a>
           <a
-            href='https://www.linkedin.com/in/zanibzubair/'
+            href='https://www.linkedin.com/in/m-adnan3/'
             target='_blank'
             rel='noreferrer'
             className='text-white hover:text-cyan-600'
@@ -208,7 +208,7 @@ const Navbar = () => {
             <FaLinkedin size={30} />
           </a>
           <a
-            href='https://mail.google.com/mail/?view=cm&to=zanib4902@gmail.com&su=Portfolio%20Inquiry'
+            href='https://mail.google.com/mail/?view=cm&to=adnanmughal03rgc@gmail.com&su=Portfolio%20Inquiry'
             target='_blank'
             rel='noreferrer'
             className='text-white hover:text-cyan-600'
@@ -216,7 +216,7 @@ const Navbar = () => {
             <HiOutlineMail size={30} />
           </a>
           <a
-            href='https://pdflink.to/e10bfc69/'
+            href='https://drive.google.com/file/d/1w9HxRG6AYR81i3G_8xGf8PxjDHMxTtNI/view?usp=sharing'
             target='_blank'
             rel='noreferrer'
             className='text-white hover:text-cyan-600'
