@@ -1,12 +1,8 @@
 import React from 'react';
-
 import HTML from '../assets/html.png';
 import CSS from '../assets/css.png';
 import Bootstrap from '../assets/boot.png';
-import JavaScript from '../assets/javascript.png';
-import ReactImg from '../assets/react.png';
 import GitHub from '../assets/github.png';
-import Mongo from '../assets/mongo.png';
 import sql from '../assets/sql.png';
 import java from '../assets/java.png';
 import Manual from '../assets/manual.png';
@@ -30,8 +26,8 @@ const Skills = () => {
 
         <div className='w-full grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 pt-8'>
           {[
-            { src: Automation, label: 'Automation Testing' },
             { src: Manual, label: 'Manual Testing' },
+            { src: Automation, label: 'Automation Testing' },
             { src: Android, label: 'Android Testing' },
             { src: ios, label: 'IOS Testing' },
             { src: java, label: 'JAVA' },
