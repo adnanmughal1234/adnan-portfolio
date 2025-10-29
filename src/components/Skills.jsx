@@ -2,17 +2,21 @@ import React from 'react';
 
 import HTML from '../assets/html.png';
 import CSS from '../assets/css.png';
+import Bootstrap from '../assets/boot.png';
 import JavaScript from '../assets/javascript.png';
 import ReactImg from '../assets/react.png';
-import Node from '../assets/node.png';
-import FireBase from '../assets/firebase.png';
 import GitHub from '../assets/github.png';
-import Tailwind from '../assets/tailwind.png';
 import Mongo from '../assets/mongo.png';
-import vue from '../assets/vue.png';
-import nextj from '../assets/nextj.png';
 import sql from '../assets/sql.png';
-import AOS from 'aos';
+import java from '../assets/java.png';
+import Manual from '../assets/manual.png';
+import Automation from '../assets/automation.png';
+import Android from '../assets/android.png';
+import ios from '../assets/ios2.png';
+import Api from '../assets/api.png';
+import Performance from '../assets/performance.png';
+
+
 import 'aos/dist/aos.css';
 const Skills = () => {
   return (
@@ -26,18 +30,18 @@ const Skills = () => {
 
         <div className='w-full grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 pt-8'>
           {[
+            { src: Automation, label: 'Automation Testing' },
+            { src: Manual, label: 'Manual Testing' },
+            { src: Android, label: 'Android Testing' },
+            { src: ios, label: 'IOS Testing' },
+            { src: java, label: 'JAVA' },
+            { src: Performance, label: 'Performance Testing' },
+            { src: Api, label: 'Api Testing' },
+            { src: GitHub, label: 'GitHub' },
+            { src: sql, label: 'SQL' },
             { src: HTML, label: 'HTML' },
             { src: CSS, label: 'CSS' },
-            { src: JavaScript, label: 'JavaScript' },
-            { src: ReactImg, label: 'React' },
-            { src: GitHub, label: 'GitHub' },
-            // { src: Node, label: 'Node.js' },
-            { src: Mongo, label: 'MongoDB' },
-            // { src: Tailwind, label: 'Tailwind' },
-            // { src: FireBase, label: 'Firebase' },
-            // { src: nextj, label: 'Next.js' },
-            // { src: vue, label: 'Vue.js' },
-            { src: sql, label: 'SQL' },
+            { src: Bootstrap, label: 'Bootstrap' },
           ].map((tech, index) => (
             <div
               key={index}
