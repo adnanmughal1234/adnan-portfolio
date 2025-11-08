@@ -125,7 +125,7 @@ const Navbar = () => {
     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
       <a
         className='flex justify-between items-center w-full text-gray-300'
-        href='https://drive.google.com/file/d/1EToMYb5FVQxzQca0dwXnwcPPiLhhjfrH/view?usp=sharing'
+        href='https://drive.google.com/file/d/1bfyRkUeqcBbkTQCtQES10x2Y7VMOyZRN/view?usp=sharing'
         target='_blank'
         rel='noreferrer'
       >
@@ -191,6 +191,7 @@ const Navbar = () => {
 
         {/* Social icons on mobile */}
         <div className='flex mt-8 gap-6'>
+          {/* Github */}
           <a
             href='https://github.com/adnanmughal1234'
             target='_blank'
@@ -199,6 +200,7 @@ const Navbar = () => {
           >
             <FaGithub size={30} />
           </a>
+          {/* Linkedin */}
           <a
             href='https://www.linkedin.com/in/m-adnan3/'
             target='_blank'
@@ -207,6 +209,7 @@ const Navbar = () => {
           >
             <FaLinkedin size={30} />
           </a>
+          {/* Email */}
           <a
             href='https://mail.google.com/mail/?view=cm&to=adnanmughal03rgc@gmail.com&su=Portfolio%20Inquiry'
             target='_blank'
@@ -215,8 +218,10 @@ const Navbar = () => {
           >
             <HiOutlineMail size={30} />
           </a>
+
+          {/* Resume */}
           <a
-            href='https://drive.google.com/file/d/1EToMYb5FVQxzQca0dwXnwcPPiLhhjfrH/view?usp=sharing'
+            href='https://drive.google.com/file/d/1bfyRkUeqcBbkTQCtQES10x2Y7VMOyZRN/view?usp=sharing'
             target='_blank'
             rel='noreferrer'
             className='text-white hover:text-cyan-600'
