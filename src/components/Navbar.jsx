@@ -125,7 +125,7 @@ const Navbar = () => {
     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
       <a
         className='flex justify-between items-center w-full text-gray-300'
-        href='https://drive.google.com/file/d/1bfyRkUeqcBbkTQCtQES10x2Y7VMOyZRN/view?usp=sharing'
+        href='https://drive.google.com/file/d/18kEkdUB1NdT40nT8M1TAtncT49P1O61R/view?usp=sharing'
         target='_blank'
         rel='noreferrer'
       >
@@ -221,7 +221,7 @@ const Navbar = () => {
 
           {/* Resume */}
           <a
-            href='https://drive.google.com/file/d/1bfyRkUeqcBbkTQCtQES10x2Y7VMOyZRN/view?usp=sharing'
+            href='https://drive.google.com/file/d/18kEkdUB1NdT40nT8M1TAtncT49P1O61R/view?usp=sharing'
             target='_blank'
             rel='noreferrer'
             className='text-white hover:text-cyan-600'
